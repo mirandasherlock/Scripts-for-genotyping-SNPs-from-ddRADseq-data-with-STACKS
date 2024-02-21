@@ -1,15 +1,9 @@
 #!/bin/bash -l
-
 #$ -l h_rt=48:0:0
-
 #$ -l mem=48G
-
 #$ -pe smp 32
-
 #$ -l tmpfs=15G
-
 #$ -N cstacks_job_2
-
 #$ -wd /home/username/Scratch/stacks_directory/cstacks_out
 
 module load stacks/2.54/gnu-4.9.2
