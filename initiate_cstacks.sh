@@ -8,6 +8,7 @@
 #$ -wd /home/username/Scratch/stacks_directory/cstacks_out
 
 module load stacks/2.54/gnu-4.9.2
+# Specific to UCL's Myriad cluster. However you load stacks.
 
 cd /home/username/Scratch/stacks_directory
 
